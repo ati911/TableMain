@@ -23,7 +23,7 @@ public class FilePrintMain {
             try {
                 Path pathOfFile = Path.of(pathString + "/" + actualFileName);
                 long linesCounter = Files.lines(pathOfFile).count();
-                table.addRow("" + (i + 1), actualFileName, "" + (linesCounter - 1));
+                table.addRow("" + (i + 1), actualFileName, "" + linesCounter);
             } catch (IOException e) {
                 e.printStackTrace();
             }
