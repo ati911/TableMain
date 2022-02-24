@@ -1,5 +1,7 @@
 package Table;
 
+import Table.Table.Table;
+
 import static Table.textDecorations.Decor.*;
 
 public class TableMain {
@@ -13,8 +15,6 @@ public class TableMain {
         table.addRow("3.", "szöveg", "hosszúszöveg", "15035");
 
         table.setColumnIsLeftAligned(true, false, true, false);
-        table.printTable( WHITE+ITALIC+BOLD, "MINTA TÁBLÁZAT");
-
+        table.printTable(WHITE + ITALIC + BOLD, "MINTA TÁBLÁZAT");
     }
-
 }

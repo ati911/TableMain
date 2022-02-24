@@ -1,4 +1,4 @@
-package Table;
+package Table.Table;
 
 import java.util.ArrayList;
 import java.util.Arrays;

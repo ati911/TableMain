@@ -1,5 +1,7 @@
 package Table;
 
+import Table.Table.Table;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -12,8 +14,6 @@ public class FilePrintMain {
     private static final String pathString = "src/main/resources";
 
     public static void main(String[] args) {
-
-
 
         Table table = new Table("#", "Fájlnév", "Sorok");
         table.setHeaderTextColor(WHITE);
